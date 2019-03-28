@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:text="Belajar TextView Yuk!"
+        android:textColor="#000"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview3"
+        android:text="Size-nya Kecilan dikit"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview4"
+        android:text="Teks dengan Warna Hijau"
+        android:textColor="#4CAF50"
+        android:textSize="26sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview5"
+        android:text="Lebar Banget"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:background="#F44336"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview6"
+        android:text="Ini adalah contoh sederhana dalam penggunaan widget
+        TextView di Android Studio dibuat oleh"
+        android:textColor="#000"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textview7"
+        android:text="rayganteng.com"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textAlignment="center"/>
+</LinearLayout>
